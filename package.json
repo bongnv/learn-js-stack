@@ -11,11 +11,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "color": "^1.0.3"
+    "color": "^1.0.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
   },
   "devDependencies": {
     "babel-loader": "^6.2.10",
     "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
     "del": "^2.2.2",
     "eslint": "^3.15.0",
     "eslint-config-airbnb": "^14.1.0",
@@ -29,7 +32,8 @@
   },
   "babel": {
     "presets": [
-      "latest"
+      "latest",
+      "react"
     ]
   },
   "eslintConfig": {
