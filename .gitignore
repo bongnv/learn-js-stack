@@ -38,3 +38,6 @@ jspm_packages
 
 # yarn log
 yarn-error.log
+
+# es5 files
+/lib/
