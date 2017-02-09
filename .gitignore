@@ -41,3 +41,6 @@ yarn-error.log
 
 # es5 files
 /lib/
+
+#ignore dist
+/dist/
