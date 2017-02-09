@@ -1,0 +1,16 @@
+{
+  "name": "y",
+  "version": "0.0.1",
+  "description": "learn js stack",
+  "main": "index.js",
+  "repository": "git@github.com:bongnv/learn-js-stack.git",
+  "author": "Bong Nguyen",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "color": "^1.0.3"
+  }
+}
